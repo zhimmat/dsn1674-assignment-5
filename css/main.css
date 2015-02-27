@@ -1,0 +1,84 @@
+/*html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+ALWAYS PUT ONTOP OF EVERY CSS
+}*/
+
+html {
+background-color: white;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+header{
+  background-color: #d05e3c;
+  padding: 0.1em;
+  margin: .3em 03m .3em 0em;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-family:'Merriweather', serif;
+line-height: 0.5;
+color: white;
+}
+
+ol {
+  text-align: center;
+  list-style-type: none;
+}
+
+nav li{
+display: inline;
+color: white;
+}
+
+p{
+  font-family:'Merriweather', serif;
+  font-size: .8rem;
+}
+
+.inset{
+  float: left;
+  width: 30%;
+margin-right: 15px;
+margin-bottom: 15px;
+padding: .5em;
+}
+
+.p2{
+  clear: both;
+}
+.clear-it{
+  clear: left;
+}
+
+div{
+  background-color: red;
+border: 1px solid black;
+overflow: hidden;
+}
+
+
+main{
+/*width: calc(75% - 2em);*/
+
+/*box-sizing: border-box;*/
+}
+
+aside{
+  background-color: pink;
+float: left;
+/*width: calc(25% - 2em);*/
+width: 25%;
+padding: 1em;
+/*box-sizing: border-box;*/
+}
