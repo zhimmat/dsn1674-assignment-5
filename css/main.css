@@ -8,79 +8,115 @@ ALWAYS PUT ONTOP OF EVERY CSS
 }*/
 
 html {
-background-color: white;
   box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-header{
-  background-color: #d05e3c;
-  padding: 0.1em;
-  margin: .3em 03m .3em 0em;
-}
-h1{
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.6rem;
-  text-decoration: none;
-  font-family:'Merriweather', serif;
-line-height: 0.5;
-color: white;
-}
-
-ol {
-  text-align: center;
-  list-style-type: none;
-}
-
-nav li{
-float: left;
-width: 33.33%;
-color: white;
-border: grey solid 2px;
-}
-
-p{
-  font-family:'Merriweather', serif;
-  font-size: .8rem;
-}
-
-.inset{
+.grain-1 {
   float: left;
-  width: 30%;
-margin-right: 15px;
-margin-bottom: 15px;
-padding: .5em;
+  width: 10%;
+  padding: 0.5em 0em 0em 0em;
 }
 
-.p2{
-  clear: both;
+.grain-2 {
+  float: right;
+  width: 10%;
+  padding: 0.5em 0em 0em 0em;
 }
-.clear-it{
+
+.grains {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+.cereals {
+  float: right;
+  width: 40%;
   clear: right;
+  padding: 0em 0em 0.5em 0.5em;
 }
 
-div{
-  background-color: red;
-border: 1px solid black;
-overflow: hidden;
+.quinoa {
+  float:right;
+  width: 40%;
+  clear: right;
+  padding: 0em 0em 0.5em 0.5em
+}
+
+.p2 {
+  clear: left;
+}
+
+ div {
+   background-color: #d05c2e ;
+   overflow: hidden;
+ }
+
+ nav {
+   background-color: #d05c2e;
+   text-align: center;
+ }
+
+ nav ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+ }
+
+ nav a {
+   display: block;
+   padding: 0.5em 0.75em 0.75em;
+   margin: 0px;
+   background-color: #d05c2e;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ nav a:hover {
+   background-color: #a93f35;
+ }
+
+ nav li {
+   font-weight: normal;
+   font-color: #fff;
+   font-size: 1rem;
+   font-style: normal;
+   font-family: 'Merriweather';
+   line-height: 1;
+   float: left;
+   width: 33.333%;
+ }
+
+h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #d05c2e;
+  display: block;
+  padding: 15px;
+  margin: 0;
+  font-family: 'Merriweather';
 }
 
 
-main{
-/*width: calc(75% - 2em);*/
+ main {
+   background-color: #d05c2e;
+   float: left;
+   /*width: calc(75% - 2em);*/
+   width: 75%;
+   padding: 1em;
+ }
 
-/*box-sizing: border-box;*/
-}
-
-aside{
-  background-color: pink;
-float: left;
-/*width: calc(25% - 2em);*/
-width: 25%;
-padding: 1em;
-/*box-sizing: border-box;*/
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 1em;
 }
