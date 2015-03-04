@@ -17,33 +17,33 @@ html {
 
 .grain-1 {
   float: left;
-  width: 10%;
+  width: 6%;
   padding: 0.5em 0em 0em 0em;
 }
 
 .grain-2 {
   float: right;
-  width: 10%;
+  width: 6%;
   padding: 0.5em 0em 0em 0em;
 }
 
 .grains {
   float: left;
-  width: 40%;
+  width: 33.33%;
   margin-right: 15px;
   padding: 0.5em 0em 0.5em 0em;
 }
 
 .cereals {
   float: right;
-  width: 40%;
+  width: 33.33%;
   clear: right;
   padding: 0em 0em 0.5em 0.5em;
 }
 
 .quinoa {
   float:right;
-  width: 40%;
+  width: 33.33%;
   clear: right;
   padding: 0em 0em 0.5em 0.5em
 }
@@ -71,12 +71,13 @@ html {
  }
 
  nav a {
-   display: block;
+   display: inline-block;
    padding: 0.5em 0.75em 0.75em;
    margin: 0px;
    background-color: #d05c2e;
    color: #fff;
    text-decoration: none;
+   border: 1px;
  }
 
  nav a:hover {
@@ -119,4 +120,9 @@ h2 {
   text-align: center;
   font-family: 'Merriweather';
   font-size: 1em;
+  padding: .5em .5em;
+}
+
+.corn{
+  width: 100%
 }
