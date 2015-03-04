@@ -27,7 +27,6 @@ h1 {
   font-size: 1.5em;
   text-align: center;
   color: white;
-  margin-top: 1em;
   padding: 0em;
 }
 
@@ -48,6 +47,7 @@ h3 {
   font-size: 1.1em;
   padding: 0em 2em;
   margin: .7em;
+font-style:bold;
 }
 
 
@@ -74,7 +74,7 @@ li {
 
 nav li{
 float: center;
-width: 31.7%;
+width: 32%;
 color: white;
 border: grey solid 1px;
 margin: 0em;
@@ -105,6 +105,10 @@ p {
   font-family: 'Merriweather', serif;
   font-size: .7rem;
   line-height: 1.6em;
+font-style: italic;
+margin: 10px;
+margin-bottom: 1em;
+
 }
 
 .peanuts {
@@ -132,6 +136,7 @@ p {
   width: 22%;
   margin-top: 0.7em;
   margin-right: 0.5em;
+  margin-left: 0.5em;
   margin-bottom: 0em;
   width: 33.33%;
 }
@@ -147,12 +152,15 @@ p {
 .cereal{
   width: 33.33%;
   float: right;
+  clear: right;
+margin: 15px;
 }
 
 .quinoa{
   width: 33.33%;
   float: right;
-  margin-top: .5em;
+  margin: 15px;
+  clear: both;
 }
 
 .clear-it{
@@ -164,7 +172,7 @@ footer{
   background-color: #d05c2e;
   text-align: center;
   padding: 1.5em;
-  margin: 6em 0em 0em 0em;
+  margin: 15em 0em 0em 0em;
   font-family: 'Merriweather', serif;
   font-size: .5em;
   color: white;
@@ -210,7 +218,6 @@ aside {
 .p2 {
   clear: both;
   width: 63%;
-  padding-top: -200em;
 }
 
 .pbl {
