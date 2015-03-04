@@ -108,7 +108,10 @@ p {
 font-style: italic;
 margin: 10px;
 margin-bottom: 1em;
-
+}
+.p2{
+  width: 57%;
+  margin-bottom: 0.5em;
 }
 
 .peanuts {
@@ -139,6 +142,7 @@ margin-bottom: 1em;
   margin-left: 0.5em;
   margin-bottom: 0em;
   width: 33.33%;
+  border: lightgrey solid 1px;
 }
 
 .inset{
@@ -146,14 +150,18 @@ margin-bottom: 1em;
   width: 25%;
   padding: 0. 5em;
   margin-right: .5em;
+  margin-left: .5em;
   margin-bottom: 1em;
+  border: lightgrey solid 1px;
 }
 
 .cereal{
   width: 33.33%;
   float: right;
-  clear: right;
+margin-right: 0.5em;
+margin-left: 0.5em;
 margin: 15px;
+border: lightgrey solid 1px;
 }
 
 .quinoa{
@@ -161,6 +169,7 @@ margin: 15px;
   float: right;
   margin: 15px;
   clear: both;
+  border: lightgrey solid 1px;
 }
 
 .clear-it{
@@ -176,6 +185,7 @@ footer{
   font-family: 'Merriweather', serif;
   font-size: .5em;
   color: white;
+clear: both;
 }
 
 figcaption{
@@ -216,16 +226,16 @@ aside {
 }
 
 .p2 {
-  clear: both;
   width: 63%;
 }
 
 .pbl {
   font-style: italic;
   font-size: .6em;
-  line-height: 7em;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding: 0em;
+  float: right;
+  width: 70%;
 }
 
 body {
