@@ -46,9 +46,9 @@ h3 {
   color: black;
   font-family: 'merriweather', serif;
   font-size: 1.1em;
-  padding: 0em 2em;
-  margin: .7em;
-font-style:bold;
+  padding: 0em, 2em;
+font-style: ultra bold;
+margin-bottom: 1em;
 }
 
 
@@ -71,6 +71,10 @@ li {
   background-color: #d05c2e;
   margin: 0em;
   padding: 0em;
+}
+
+nav {
+  clear: both;
 }
 
 nav li{
@@ -196,13 +200,15 @@ figcaption{
   color: white;
   text-align: center;
   margin: 0em;
-  padding: 1.1em;
+  padding: 0.9em;
   font-style: italic;
   font-family: 'merriweather', serif;
   font-size: .3em;
 }
 
 figure {
+  background-color: #d05c2e;
+
   width: 100%;
   margin: 0em;
   padding: 0em;
@@ -239,8 +245,16 @@ aside {
   padding: 0em;
   float: right;
   width: 70%;
+  margin-top: 2em;
 }
 
 body {
   margin: 0em;
+}
+
+aside{
+  float: left;
+  width: 50%;
+  padding-bottom: 1em;
+  margin: 0;
 }
