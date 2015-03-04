@@ -8,12 +8,48 @@ ALWAYS PUT ONTOP OF EVERY CSS
 }*/
 
 html {
+background-color: white;
   box-sizing: border-box;
 }
-
-*, *::before, *::after {
+*,*::before, **::after{
   box-sizing: inherit;
 }
+
+header {
+  padding: .01em;
+  margin: 0em;
+  background-color: #d05c2e;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'merriweather', serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+  padding: 0em;
+}
+
+h2 {
+  background-color: #d05c2e;
+  text-align: center;
+  color: white;
+  font-family: 'merriweather', serif;
+  font-size: 1.1em;
+  padding: 1em;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: 'merriweather', serif;
+  font-size: 1.1em;
+  padding: 0em 2em;
+  margin: .7em;
+}
+
 
 .grain-1 {
   float: left;
@@ -27,102 +63,164 @@ html {
   padding: 0.5em 0em 0em 0em;
 }
 
-.grains {
+
+li {
+  display: inline-block;
+  color: white;
+  background-color: #d05c2e;
+  margin: 0em;
+  padding: 0em;
+}
+
+nav li{
+float: center;
+width: 31.7%;
+color: white;
+border: grey solid 1px;
+margin: 0em;
+text-align: center;
+display: inline-block;
+text-decoration: none;
+}
+
+nav a{
+  display: block;
+  padding: 0.5em 0.75em 0.75em;
+margin: 0px;
+background-color: #d05c2e;
+color: #fff;
+text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a93f35;
+}
+
+ol {
+  margin: 0em;
+  padding: 0;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: .7rem;
+  line-height: 1.6em;
+}
+
+.peanuts {
+  width: 25%;
   float: left;
-  width: 33.33%;
-  margin-right: 15px;
-  padding: 0.5em 0em 0.5em 0em;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
 }
 
-.cereals {
-  float: right;
-  width: 33.33%;
-  clear: right;
-  padding: 0em 0em 0.5em 0.5em;
+.beans {
+  width: 25%;
+  float: left;
+  margin-right: .5em;
+  margin-bottom: 1em;
 }
 
-.quinoa {
-  float:right;
-  width: 33.33%;
-  clear: right;
-  padding: 0em 0em 0.5em 0.5em
-}
-
-.p2 {
+.clear-it {
   clear: left;
 }
 
- div {
-   background-color: #d05c2e ;
-   overflow: hidden;
- }
+.grains{
+  float: left;
+  float: left;
+  width: 22%;
+  margin-top: 0.7em;
+  margin-right: 0.5em;
+  margin-bottom: 0em;
+  width: 33.33%;
+}
 
- nav {
-   background-color: #d05c2e;
-   text-align: center;
- }
+.inset{
+  float: left;
+  width: 25%;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+}
 
- nav ol {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+.cereal{
+  width: 33.33%;
+  float: right;
+}
 
- }
+.quinoa{
+  width: 33.33%;
+  float: right;
+  margin-top: .5em;
+}
 
- nav a {
-   display: inline-block;
-   padding: 0.5em 0.75em 0.75em;
-   margin: 0px;
-   background-color: #d05c2e;
-   color: #fff;
-   text-decoration: none;
-   border: 1px;
- }
+.clear-it{
+  clear: left;
 
- nav a:hover {
-   background-color: #a93f35;
- }
+}
 
- nav li {
-   font-weight: normal;
-   font-color: #fff;
-   font-size: 1rem;
-   font-style: normal;
-   font-family: 'Merriweather';
-   line-height: 1;
-   float: left;
-   width: 33.333%;
- }
-
-h1 {
-  color: #fff;
-  font-size: 1.5em;
-  text-align: center;
+footer{
   background-color: #d05c2e;
-  display: block;
-  padding: 15px;
-  margin: 0;
-  font-family: 'Merriweather';
-}
-
-
- main {
-   background-color: #d05c2e;
-   float: left;
-   /*width: calc(75% - 2em);*/
-   width: 75%;
-   padding: 1em;
- }
-
-h2 {
-  color: #fff;
   text-align: center;
-  font-family: 'Merriweather';
-  font-size: 1em;
-  padding: .5em .5em;
+  padding: 1.5em;
+  margin: 6em 0em 0em 0em;
+  font-family: 'Merriweather', serif;
+  font-size: .5em;
+  color: white;
 }
 
-.corn{
-  width: 100%
+figcaption{
+  background-color: #d05c2e;
+  color: white;
+  text-align: center;
+  margin: 0em;
+  padding: 1.1em;
+  font-style: italic;
+  font-family: 'merriweather', serif;
+  font-size: .3em;
+}
+
+figure {
+  width: 100%;
+  margin: 0em;
+  padding: 0em;
+}
+
+img {
+  width: 100%;
+  margin: 0em;
+  padding: 0em;
+}
+
+main {
+  float: left;
+  padding: 0em;
+  margin: 0em;
+  width: 100%;
+}
+
+aside {
+  float: left;
+  width: 50%;
+  padding:0em;
+  margin: 0em;
+}
+
+.p2 {
+  clear: both;
+  width: 63%;
+  padding-top: -200em;
+}
+
+.pbl {
+  font-style: italic;
+  font-size: .6em;
+  line-height: 7em;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0em;
 }
