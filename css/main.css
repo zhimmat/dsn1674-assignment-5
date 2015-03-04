@@ -28,6 +28,7 @@ h1 {
   text-align: center;
   color: white;
   padding: 0em;
+font-weight: normal;
 }
 
 h2 {
@@ -39,6 +40,7 @@ h2 {
   padding: 1em;
   margin: 0;
 clear: both;
+font-weight: normal;
 }
 
 h3 {
@@ -66,6 +68,7 @@ margin-bottom: 1em;
 
 
 li {
+  font-family:"merriweather", sans;
   display: inline-block;
   color: white;
   background-color: #d05c2e;
@@ -75,14 +78,15 @@ li {
 
 nav {
   clear: both;
+  width:auto;
 }
 
 nav li{
-float: center;
-width: 32%;
+float: left;
+width: 32.9%;
 color: white;
-border: grey solid 1px;
-margin: 0em;
+padding: 0;
+border: darkred solid 1px;
 text-align: center;
 display: inline-block;
 text-decoration: none;
@@ -104,13 +108,18 @@ nav a:hover {
 ol {
   margin: 0em;
   padding: 0;
+  width: 100%;
+}
+
+nav ol{
+  overflow: hidden;
 }
 
 p {
   font-family: 'Merriweather', serif;
   font-size: .7rem;
   line-height: 1.6em;
-font-style: italic;
+  width: 100%;
 margin: 10px;
 margin-bottom: 1em;
 }
@@ -146,7 +155,7 @@ clear: left;
   margin-top: 0.7em;
   margin-right: 0.5em;
   margin-left: 0.5em;
-  margin-bottom: 0em;
+  margin-bottom: 0.5em;
   width: 33.33%;
   border: lightgrey solid 1px;
 }
@@ -166,7 +175,8 @@ clear: left;
   float: right;
 margin-right: 0.5em;
 margin-left: 0.5em;
-margin: 15px;
+margin: 0px;
+margin-bottom: 0em;
 border: lightgrey solid 1px;
 clear: left;
 }
@@ -174,9 +184,11 @@ clear: left;
 .quinoa{
   width: 33.33%;
   float: right;
-  margin: 15px;
+  margin: 0px;
   clear: both;
   border: lightgrey solid 1px;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
 }
 
 .clear-it{
@@ -245,7 +257,6 @@ aside {
   padding: 0em;
   float: right;
   width: 70%;
-  margin-top: 2em;
 }
 
 body {
